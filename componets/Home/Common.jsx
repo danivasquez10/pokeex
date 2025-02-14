@@ -19,13 +19,14 @@ if (! inputRef.current.value)
 
 
   return (
-    <div>
-{name && <h2> Hola {name}!</h2>} 
+    <div className="mh">
+{name && <h2 className="ludo"> Hola {name}!</h2>} 
 <h1>POKEDEX</h1>
 <h4>Para poder comenzar, Ingresa tu nombre</h4>
 
     <input type="text" placeholder="Escribe tu nombre" ref={inputRef}/>
     <button onClick={handleSetName}>COMENZAR</button>
+
 
 
     </div>

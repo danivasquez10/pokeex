@@ -3,10 +3,31 @@
   line-height: 1.5;
   font-weight: 400;
 }
-h1{color: aliceblue;}
-.boton{
-  background-color: greenyellow ;
-  color: black;
+.bienvenida{
+  color: aliceblue;
+  background-color: #101cc3;
+  display: flex;
+  justify-content: center;
+  text-shadow: 3px 3px 3px black;
+}
+.ludo{
+  color: rgb(0, 136, 255);
+  text-shadow: 3px 3px 3px black;
+  text-shadow: 3px 3px 3px black;
+}
+h4{
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 3px 3px black;
+}
+input{
+  background-color: #ffffff9b;
+  
+}
+h1{color: aliceblue;
+  text-shadow: 3px 3px 3px black;}
+button{
+  background-color: rgb(27, 34, 172) ;
+  color: rgb(255, 255, 255);
   box-shadow: 2px 2px 2px white;
   border-radius: 12px;
 }
@@ -15,7 +36,9 @@ body{
   place-content: center;
   min-height: 100dvh;
   margin: 0;
-  background-color: #160146;
+  background-image: url(assets/pikachu_artwork.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* From Uiverse.io by alexmaracinaru */ 
@@ -28,7 +51,10 @@ body{
   place-content: center;
  
  }
- 
+.mh{
+  background-color: #0000004f;
+padding: 120px;
+}
  .card .card-border-top {
   width: 60%;
   height: 3%;

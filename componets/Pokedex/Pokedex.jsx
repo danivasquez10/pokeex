@@ -77,7 +77,7 @@ const searchPokemon = () => {
     
   return (
 <div>
-   {name && <p> Bienvenido {name} aqui podras encontrar tu pokemon favorito </p>} 
+   {name && <p className="bienvenida"> Bienvenido {name} aqui podras encontrar tu pokemon favorito </p>} 
         <div className="koko">   
     <h1>Pokedex</h1>
     <input type="text" 
